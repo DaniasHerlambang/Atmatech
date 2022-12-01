@@ -88,7 +88,6 @@ def home():
         "docker"    : "x"
     }
     return jsonify(data)
-    return '<h1>Hello World!</h1>'
 
 #---------------------------------------------------------------------- book crud
 @app.route('/books', methods=['POST'])
